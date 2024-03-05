@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+
+.project {
+  align-self: flex-start;
+  margin-top: -720px;
+  margin-left: 430px;
+}
+
+.name_project {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 590px;
+  margin-top: -150px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 24px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  align-self: flex-start;
+  margin-left: 600px;
+  margin-top: -50px;
+}
+
+.buttons {
+  position: absolute;
+  top: 300px;
+  left: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.button {
+  padding: 6px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: left;
+  white-space: nowrap;
+  transition: none;
+}
+
+.button span {
+  margin-left: 10px;
+}

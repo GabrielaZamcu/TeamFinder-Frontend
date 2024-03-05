@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+
+.project {
+  align-self: flex-start;
+  margin-top: -720px;
+  margin-left: 430px;
+}
+
+.name_project {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 590px;
+  margin-top: -150px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 24px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  align-self: flex-start;
+  margin-left: 600px;
+  margin-top: -50px;
+}
+
+.buttons {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 430px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  padding: 6px;
+  width: 297.9px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  margin-right: none;
+  margin-top: -5px;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button_sec {
+  padding: 6px;
+  width: 297.9px;
+  background-color: #f9b8cb;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 730px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
+
+.button_sec:active {
+  box-shadow: 0 0 10px #0f0f0f;
+  outline: none;
+}

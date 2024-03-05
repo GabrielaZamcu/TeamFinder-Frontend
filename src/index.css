@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Calistoga";
+  src: url("./assets/Calistoga/Calistoga.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Calistoga", sans-serif;
+}

@@ -1,0 +1,23 @@
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.about_box {
+  background-color: #fffefe;
+  border: 2px solid #f9b8cb;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+  margin: 20px auto;
+  margin-top: -20px;
+}

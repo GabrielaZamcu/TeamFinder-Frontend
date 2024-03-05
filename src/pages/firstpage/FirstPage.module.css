@@ -1,0 +1,65 @@
+.container {
+  background-image: url("C:\Users\Lenovo\Desktop\FrontEnd\sign-in\src\assets\image5.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000d59;
+}
+
+.logo_container {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.tagline {
+  font-family: "Calistoga", sans-serif, bold;
+  color: white;
+  margin: 0px 0;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftImage {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.rightImage {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.frame {
+  width: 370px;
+  margin: 0 20px;
+  margin-top: 100px;
+}
+
+.menuLink {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Calistoga", sans-serif, bold;
+  color: white;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgba(255, 99, 132, 0.5);
+}
