@@ -52,10 +52,10 @@ function SignUpEmployer() {
           />
         </div>
 
+        <button className={SignUpEmployerCSS.signup_btn_signup_employer}>
+          Sign in
+        </button>
         <div className={SignUpEmployerCSS.login_text_container_signup_employer}>
-          <button className={SignUpEmployerCSS.signup_btn_signup_employer}>
-            Sign in
-          </button>
           <div className={SignUpEmployerCSS.login_text_cont_signup_employer}>
             <p className={SignUpEmployerCSS.login_text_signup_employer}>
               Already own an account?
