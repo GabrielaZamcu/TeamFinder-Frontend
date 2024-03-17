@@ -1,0 +1,204 @@
+.container_profile {
+  display: flex;
+}
+
+.content_profile {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+
+.project_img_profile {
+  position: absolute;
+  top: 0;
+  left: 265px;
+  width: 200px;
+  height: 300px;
+  flex-shrink: none;
+  z-index: -1;
+}
+
+.edit_button {
+  margin-top: -775px;
+  margin-left: 870px;
+}
+
+.edit_btn {
+  font-size: 11px;
+  padding: 3px 10px;
+  background-color: #f9b8cb;
+  color: white;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  outline: none;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.edit_btn:active {
+  box-shadow: 0 0 10px #0f0f0f;
+  outline: none;
+}
+
+.profile1 {
+  box-shadow: 0px 5px 12px -5px rgba(0, 0, 0, 0.5);
+  width: 1170px;
+  height: 120px;
+  margin-top: -615px;
+  margin-left: 270px;
+}
+
+.text_1 {
+  margin-left: 270px;
+  font-size: 24px;
+}
+
+.text_2 {
+  margin-left: 270px;
+  margin-top: -25px;
+}
+
+.image_pers {
+  position: absolute;
+  top: 0;
+  left: 355px;
+  width: 200px;
+  height: 300px;
+  flex-shrink: none;
+  z-index: -1;
+  margin-top: 80px;
+}
+
+.profile2 {
+  box-shadow: 0px 5px 12px -5px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 492px;
+  margin-top: -495px;
+  margin-left: -920px;
+}
+
+.number_profile {
+  position: absolute;
+  top: 0;
+  left: 355px;
+  flex-shrink: none;
+  z-index: -1;
+  margin-top: 320px;
+  margin-left: -80px;
+}
+
+.number_profile1 {
+  position: absolute;
+  top: 0;
+  left: 355px;
+  flex-shrink: none;
+  z-index: -1;
+  margin-top: 350px;
+  margin-left: -84px;
+}
+
+.text_3 {
+  margin-left: 30px;
+  margin-top: -40px;
+}
+
+.text_4 {
+  margin-left: 30px;
+  margin-top: -41px;
+}
+
+.cv_button {
+  margin-top: 420px;
+  margin-left: 15px;
+}
+
+.cv_btn {
+  font-size: 18px;
+  padding: 5px 50px;
+  background-color: #f9b8cb;
+  color: white;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  outline: none;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.cv_btn:active {
+  box-shadow: 0 0 10px #0f0f0f;
+  outline: none;
+}
+
+.buttons_prf {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 180px);
+  gap: 50px;
+  margin-left: -800px;
+  margin-top: -488px;
+}
+
+.Container_prn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: none;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  position: relative;
+}
+
+.buttonImagePrf {
+  width: 200px;
+  height: auto;
+}
+
+.name_project_prf {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: -30px;
+  margin-top: -20px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 18px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.name1_project_prf {
+  padding: 6px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-left: 90px;
+  margin-top: 90px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, serif;
+  font-size: 15px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.name1_project_prf p {
+  margin: -10px 0;
+}
+
+.name2_project_prf {
+  padding: 6px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 155px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, serif;
+  font-size: 15px;
+  position: absolute;
+}

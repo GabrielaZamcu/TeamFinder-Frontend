@@ -13,11 +13,28 @@
   border-radius: 10px;
   text-align: center;
 }
+.image2 img {
+  width: 1438px;
+  height: 400px;
+  margin-left: -18px;
+  margin-top: -20px;
+}
 
+.title_st {
+  margin-top: -260px;
+  font-size: 30px;
+  font-family: "Calistoga", sans-serif, bold;
+}
 .line {
-  width: 100px;
+  width: 300px;
   height: 2px;
   background-color: #000;
-  margin: 20px auto;
-  margin-top: -20px;
+  margin-left: 555px;
+  margin-top: -33px;
+  position: absolute;
+}
+
+.statistics {
+  margin-right: 700px;
+  margin-top: 100x;
 }

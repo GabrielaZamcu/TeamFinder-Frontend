@@ -1,4 +1,4 @@
-.sidebar_cover_employer {
+.sidebar_cover {
   background-color: #000d59;
   width: 230px;
   height: 100vh;
@@ -8,54 +8,54 @@
   align-items: center;
 }
 
-.logo_employer {
+.logo {
   margin-bottom: -22px;
 }
 
-.employer_text1 {
+.employer_text {
   font-size: 18px;
   font-family: "Calistoga", sans-serif, bold;
   margin-bottom: 24px;
   color: white;
 }
 
-.profile_employer {
+.profile {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.profile_image_employer {
+.profile_image {
   border-radius: 50%;
   margin-bottom: 0;
 }
 
-.name_employer {
+.name {
   font-size: 30px;
   color: white;
   font-family: "Calistoga", sans-serif, bold;
 }
 
-.buttons_employer {
+.buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main_buttons_employer {
+.main_buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.link_page_employer {
+.link_page {
   text-decoration: none;
   text-align: center;
 }
 
-button_employer {
+button {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -67,12 +67,12 @@ button_employer {
   font-family: "Calistoga", sans-serif, bold;
 }
 
-.button_employer:hover {
+button:hover {
   background-color: rgb(255, 168, 187);
   width: 270px;
 }
 
-.active_button_employer {
+.active_button {
   background-color: rgb(255, 168, 187);
   font-weight: bold;
   width: 270px;

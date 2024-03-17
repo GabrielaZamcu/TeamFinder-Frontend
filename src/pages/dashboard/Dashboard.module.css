@@ -1,0 +1,180 @@
+.dashboard {
+  margin: 20px;
+}
+.project_img_dashboards {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 100px;
+  height: 10px;
+  flex-shrink: none;
+  z-index: -1;
+}
+.img_dashboards {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  width: 50px;
+  height: 10px;
+  flex-shrink: none;
+  z-index: -1;
+}
+.name_project_dashboards {
+  padding: 6px;
+  color: #000d59;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: -835px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 60px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
+.title1_dashboards {
+  padding: 6px;
+  color: #000000;
+  border-radius: 5px;
+  margin-left: -530px;
+  margin-top: -70px;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 38px;
+  text-align: center;
+}
+.schedule_table {
+  border-collapse: collapse;
+  width: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 350px;
+  margin-top: -45px;
+}
+
+.schedule_table th,
+.schedule_table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  width: 100px;
+}
+
+.schedule_table th {
+  background-color: #feb4ea59;
+}
+.schedule-table th:first-child {
+  border-top-left-radius: 20px;
+}
+
+.schedule-table th:last-child {
+  border-top-right-radius: 20px;
+}
+.title2_dashboards {
+  padding: 6px;
+  color: #000000;
+  border-radius: 5px;
+  margin-left: -480px;
+  margin-top: -30px;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 35px;
+  text-align: center;
+}
+.program1_dashboards {
+  position: absolute;
+  top: 525px;
+  left: 390px;
+  width: 100px;
+  height: 10px;
+  flex-shrink: none;
+  z-index: -1;
+}
+.date1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 10px;
+  height: 5px;
+  flex-shrink: none;
+}
+.project_1 {
+  padding: 6px;
+  color: #000000;
+  margin-left: -350px;
+  margin-top: -40px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 17px;
+  text-align: center;
+}
+.project_2 {
+  padding: 6px;
+  color: #696464;
+  margin-left: -350px;
+  margin-top: -45px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 17px;
+  text-align: center;
+}
+.project_3 {
+  padding: 6px;
+  color: #696464;
+  margin-left: -120px;
+  margin-top: -65px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 16px;
+  text-align: center;
+}
+.program2_dashboards {
+  position: absolute;
+  top: 625px;
+  left: 390px;
+  width: 100px;
+  height: 10px;
+  flex-shrink: none;
+  z-index: -1;
+}
+.date2 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 10px;
+  height: 5px;
+  flex-shrink: none;
+}
+.project_4 {
+  padding: 6px;
+  color: #000000;
+  margin-left: -350px;
+  margin-top: 10px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 17px;
+  text-align: center;
+}
+.project_5 {
+  padding: 6px;
+  color: #696464;
+  margin-left: -350px;
+  margin-top: -45px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 17px;
+  text-align: center;
+}
+.project_6 {
+  padding: 6px;
+  color: #696464;
+  margin-left: -120px;
+  margin-top: -65px;
+  font-family: "Calistoga", sans-serif bold;
+  font-size: 16px;
+  text-align: center;
+}
+.button {
+  position: absolute;
+  top: 0;
+  left: 890px;
+  margin-top: 15px;
+}
+.button1 {
+  position: absolute;
+  top: 0;
+  left: 890px;
+  margin-top: 15px;
+}

@@ -10,10 +10,17 @@
 
 .project {
   align-self: flex-start;
-  margin-top: -720px;
+  margin-top: -800px;
   margin-left: 430px;
 }
-
+.login_link {
+  color: white;
+  text-decoration: none;
+}
+.btn_link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 .name_project {
   padding: 6px;
   color: rgb(255, 255, 255);
@@ -73,7 +80,7 @@
   -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
 }
 
-.button_sec:active {
-  box-shadow: 0 0 10px #0f0f0f;
-  outline: none;
+.button_active {
+  background-color: #f9b8cb;
+  color: #fff;
 }

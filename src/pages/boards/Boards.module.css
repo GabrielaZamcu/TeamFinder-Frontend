@@ -1,0 +1,138 @@
+.container_boards {
+  display: flex;
+}
+
+.content_boards {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+
+.project_img_boards {
+  position: absolute;
+  top: 0;
+  left: 260px;
+  width: 200px;
+  height: 300px;
+  flex-shrink: none;
+  z-index: -1;
+}
+
+.name_project_boards {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 590px;
+  margin-top: -700px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 24px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
+
+.backgroundImage_boards {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 600px;
+  margin-top: 300px;
+  z-index: -1;
+}
+
+.membersBox {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-left: -850px;
+  margin-top: -550px;
+  width: 170px;
+}
+
+.membersTitle {
+  text-align: center;
+}
+
+.line {
+  width: 70px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.memberImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memberImages img {
+  margin-top: 10px;
+  width: 80px;
+}
+
+.resourcesBox {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-left: 580px;
+  margin-top: -550px;
+  width: 200px;
+}
+
+.boxTitle {
+  text-align: center;
+}
+
+.line2 {
+  width: 100px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+.text {
+  text-align: center;
+}
+
+.seeResourcesButton {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 16px;
+  background-color: #f9b8cb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-stroke: 1.1px rgba(235, 216, 216, 0.5);
+  margin-top: 350px;
+  width: 100px;
+}
+
+.seeResourcesButton:hover {
+  background-color: #0056b3;
+}
+
+.sticky_note {
+  width: 100px;
+  margin-top: -550px;
+}
+
+.text_sticky_note {
+  text-align: center;
+  margin-top: -180px;
+  margin-left: 80px;
+  width: 90px;
+}
+
+.botton_add {
+  position: absolute;
+  top: 700px;
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background-color: #f9b8cb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-stroke: 1.1px rgba(235, 216, 216, 0.5);
+  width: 270px;
+}

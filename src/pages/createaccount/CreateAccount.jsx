@@ -72,9 +72,15 @@ function CreateAccount() {
             placeholder="Headquarter Address"
           />
         </div>
-
+        <button100 className={CreateAccountCSS.signup_btn1}>
+          <Link
+            to="/dashboardemployer"
+            className={CreateAccountCSS.login_link_emp}
+          >
+            <p className={CreateAccountCSS.sign_up_text}>Sign up</p>
+          </Link>
+        </button100>
         <div className={CreateAccountCSS.login_text_container}>
-          <button className={CreateAccountCSS.signup_btn}>Sign in</button>
           <div className={CreateAccountCSS.login_text_cont}>
             <p className={CreateAccountCSS.login_text}>
               Already own an account?

@@ -1,4 +1,4 @@
-.container_signup_employer {
+.background {
   background-image: url("C:\Users\Lenovo\Desktop\ATC-2024\team-finder-frontend\src\assets\image3.png");
   background-size: cover;
   background-position: center;
@@ -8,7 +8,34 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+.container_signup_employer {
+  position: absolute;
   overflow: hidden;
+  width: 700px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+.container_signup_employer.active {
+  transform: rotateY(180deg);
+}
+.container_login_employer {
+  overflow: hidden;
+  backface-visibility: visible;
+  overflow: hidden;
+  width: 700px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+}
+.container_login_employer.active {
+  transform: rotateY(0deg);
+}
+
+.switchContainer {
+  position: absolute;
+  transform: rotate3d(-50%);
 }
 
 .logo_container_signup_employer {
@@ -31,7 +58,58 @@
 .title_and_logo_signup_employer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.switchContainer {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 34px;
+  margin-top: 190px;
+  transition: width 2s;
+}
+.container_log_sign {
+  position: absolute;
+  display: flex;
+  width: auto;
+  height: auto;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transition: rotateY(360deg);
+  z-index: 999;
+}
+.signup_container {
+  color: #000d59;
+  display: flex;
+  position: absolute;
+  margin-bottom: 300px;
+  margin-right: 220px;
+  top: 110px;
+  right: 300px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  z-index: 999;
+}
+.signup_container.active {
+  display: none;
+}
+
+.login_container {
+  color: #000d59;
+  display: flex;
+  position: absolute;
+  margin-bottom: 260px;
+  margin-right: 370px;
+  top: 110px;
+  right: 50px;
+  transform-style: preserve-3d;
+  z-index: 999;
+}
+.login_container.active {
+  display: none;
 }
 
 .title_signup_employer {
@@ -39,8 +117,16 @@
   font-size: 24px;
   color: black;
   margin-right: 1px;
-  margin-left: 32px;
+  margin-left: 35px;
   margin-bottom: 20px;
+}
+
+.signup {
+  color: #f9b8cb;
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 40px;
 }
 
 .form_container_signup_employer {
@@ -50,6 +136,7 @@
   padding-right: 50px;
   padding-left: 50px;
   width: 300px;
+  height: 539px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -131,7 +218,12 @@ input::placeholder {
 .frame_container_signup_employer {
   margin-bottom: 0.48px;
   display: flex;
+  position: absolute;
+  height: 600px;
   justify-content: flex-start;
+  margin-left: 400px;
+  margin-top: -600px;
+  z-index: 998;
 }
 
 .frame_image_signup_employer {
@@ -139,11 +231,35 @@ input::placeholder {
   height: auto;
   margin-right: 15px;
 }
-
+.text_welcome_login_employer {
+  color: rgb(255, 186, 213);
+  font-size: 37px;
+  font-family: "Calistoga", sans-serif, bold;
+  margin-top: 250px;
+  margin-left: -330px;
+  z-index: 999;
+  text-align: center;
+  -webkit-text-stroke: 1.1px rgba(255, 99, 132, 0.5);
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+.text_welcome_login_employer.active {
+  transform: rotateY(180deg);
+}
 .text_welcome_signup_employer {
   color: rgb(255, 186, 213);
-  font-size: 50px;
+  font-size: 37px;
   font-family: "Calistoga", sans-serif, bold;
-  margin-left: -300px;
+  margin-top: 255px;
+  margin-left: -276px;
+  z-index: 999;
+  text-align: center;
   -webkit-text-stroke: 1.1px rgba(255, 99, 132, 0.5);
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+}
+.text_welcome_signup_employer.active {
+  transform: rotateY(0deg);
 }

@@ -1,41 +1,40 @@
-.container {
+.container_res {
   display: flex;
 }
 
-.content {
+.content_res {
   display: flex;
   flex-direction: column;
   width: calc(100% - 250px);
 }
 
-.project_img {
+.project_img_res {
   position: absolute;
   top: 0px;
   left: 260px;
-  width: 200px;
+  width: 150px;
   height: 300px;
   flex-shrink: none;
   z-index: -1;
 }
 
-.name_project {
-  padding: 6px;
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  margin-left: 590px;
-  margin-top: -150px;
-  text-align: center;
-  font-family: "Calistoga", sans-serif, bold;
-  font-size: 24px;
-  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
-  margin-top: -700px;
-}
 .login_link {
   color: white;
   text-decoration: none;
 }
+.name_project_res {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 590px;
+  margin-top: -700px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 24px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+}
 
-.backgroundImage {
+.backgroundImage_res {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,44 +43,52 @@
   z-index: -1;
 }
 
-.buttons_emp {
+.buttons_emp_res {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 10px;
-  margin-left: 500px;
+  margin-left: 430px;
 }
 
-.buttonContainer {
+.buttonContainer_res {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: none;
+  background-color: white;
   color: rgb(0, 0, 0);
   border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 850px;
 }
 
-.buttonImage {
+.buttonImage_res {
   width: 200px;
   height: auto;
-  margin-bottom: -140px;
+  margin-right: 20px;
 }
 
-.buttonText {
-  white-space: nowrap;
+.buttonText_res {
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  text-align: center;
+  text-align: left;
+  flex-grow: 1;
 }
 
-.buttonText span {
-  font-size: 14px;
-}
-
-.buttonText span {
+.buttonText_res span1 {
   display: block;
-  text-align: center;
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.span0 {
+  font-size: 16px;
+}
+
+.span1 {
   font-style: italic;
   font-size: 14px;
 }

@@ -74,32 +74,34 @@ input {
   border-radius: 5px;
   width: 320px;
 }
-
-.signup_btn {
-  width: 335px;
-  font-size: 18px;
+.signup_btn1 {
+  width: 300px;
+  height: 20px;
   padding: 5px;
   background-color: #f9b8cb;
-  color: white;
   border: 0.5px solid black;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
   font-family: "Calistoga", sans-serif, bold;
-  outline: none;
-  line-height: 1.2;
-  margin-top: 10px;
-  text-decoration: none;
-}
+  font-size: 18px;
 
-.signup_btn:active {
+  margin-top: 10px;
+}
+.signup_btn1:active {
   box-shadow: 0 0 10px #0f0f0f;
   outline: none;
 }
-
+.login_link_emp {
+  color: white; /* Setează culoarea textului la alb */
+  text-decoration: none; /* Elimină sublinierea link-ului */
+}
+.sign_up_text {
+  margin-top: -1px;
+}
 .login_link {
   border: none;
-  margin-top: 2px;
+  margin-top: -10px;
 }
 
 .login_text {
@@ -108,7 +110,7 @@ input {
   font-weight: 1;
   border: none;
   margin-right: 5px;
-  margin-top: 1px;
+  margin-top: -10px;
 }
 
 .login_text_container {

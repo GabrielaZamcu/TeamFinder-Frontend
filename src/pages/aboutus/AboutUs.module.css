@@ -12,12 +12,54 @@
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  width: 1400px;
+  height: 690px;
+}
+
+.image1 img {
+  width: 1438px;
+  height: 400px;
+  margin-left: -18px;
+  margin-top: -20px;
+}
+
+.title {
+  margin-top: -280px;
+  font-size: 30px;
+  font-family: "Calistoga", sans-serif, bold;
 }
 
 .line {
-  width: 100px;
+  width: 300px;
   height: 2px;
   background-color: #000;
-  margin: 20px auto;
-  margin-top: -20px;
+  margin-left: 555px;
+  margin-top: -33px;
+  position: absolute;
+}
+
+.about_text button3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  width: 900px;
+  height: 330px;
+  font-size: 16px;
+  color: #000000;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  margin-left: 700px;
+}
+
+.about_text button3 p {
+  margin: 10px 0;
+  line-height: 1.6;
 }
