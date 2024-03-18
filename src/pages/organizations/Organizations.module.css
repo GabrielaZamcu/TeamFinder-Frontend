@@ -18,38 +18,22 @@
   z-index: -1;
 }
 
-.name_project_org {
-  padding: 6px;
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  margin-left: 590px;
-  margin-top: -150px;
-  text-align: center;
-  font-family: "Calistoga", sans-serif, bold;
-  font-size: 24px;
-  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
-  margin-top: -700px;
-}
-.login_link_org {
-  color: white;
-  text-decoration: none;
-}
-
 .backgroundImage_org {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 600px;
-  margin-top: 300px;
+  margin-left: 550px;
+  margin-top: 200px;
   z-index: -1;
 }
 
 .buttons_emp_org {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 10px;
-  margin-left: 500px;
+  grid-template-rows: repeat(3, auto);
+  gap: 30px;
+  margin-left: 450px;
+  margin-top: -700px;
 }
 
 .buttonContainer_org {
@@ -73,6 +57,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+  margin-top: -55px;
+  margin-left: -50px;
 }
 
 .buttonText_org span {
@@ -94,4 +80,473 @@
   text-align: left;
   border-radius: 5px;
   width: 320px;
+}
+.name_project_prf1 {
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 90px;
+  margin-top: -18px;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  font-size: 25px;
+  -webkit-text-stroke: 1.1px rgba(151, 126, 131, 0.993);
+  position: absolute;
+  transform: translateX(-50%);
+}
+.program_org0 {
+  width: 198px;
+  margin-left: -150px;
+  margin-top: -173px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org0 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org0 p1 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org0 p2 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org1 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org0 p3 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org0 p4 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.img_h {
+  margin-left: -150px;
+  margin-top: -110px;
+}
+.img_h1 {
+  margin-left: -150px;
+  margin-top: 10px;
+}
+
+.program_org1 p5 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org1 p6 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.program_org1 p7 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org1 p8 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+.row_org3 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org1 {
+  width: 198px;
+  margin-left: 120px;
+  margin-top: -173px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org2 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org3 {
+  width: 198px;
+  margin-left: 390px;
+  margin-top: -173px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org4 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org3 p9 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org3 p10 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org5 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org3 p11 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org3 p12 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+.program_org4 {
+  width: 198px;
+  margin-left: -150px;
+  margin-top: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org6 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org4 p13 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org4 p14 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org7 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org4 p15 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org4 p16 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.program_org5 {
+  width: 198px;
+  margin-left: 120px;
+  margin-top: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org8 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org5 p17 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org5 p18 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org9 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org5 p19 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org5 p20 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.program_org6 {
+  width: 198px;
+  margin-left: 390px;
+  margin-top: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org10 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org6 p21 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org6 p22 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org11 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org6 p23 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org6 p24 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.program_org7 {
+  width: 198px;
+  margin-left: -150px;
+  margin-top: 218px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org12 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org7 p25 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org7 p26 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org13 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org7 p27 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org7 p28 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.program_org8 {
+  width: 198px;
+  margin-left: 120px;
+  margin-top: 218px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org14 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org8 p29 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org8 p30 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org15 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org8 p31 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org8 p32 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
+}
+
+.program_org9 {
+  width: 198px;
+  margin-left: 390px;
+  margin-top: 218px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+}
+
+.row_org16 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.program_org9 p33 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org9 p34 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 56px;
+}
+.row_org17 {
+  flex-direction: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.program_org9 p35 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 25px;
+}
+.program_org9 p36 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 73px;
 }

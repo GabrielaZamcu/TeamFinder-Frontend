@@ -1,5 +1,5 @@
 .container {
-  background-image: url("C:\Users\Lenovo\Desktop\ATC-2024\team-finder-frontend\src\assets\image5.png");
+  background-image: url("../../assets/image5.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -26,7 +26,7 @@
 .tagline {
   font-family: "Calistoga", sans-serif, bold;
   color: white;
-  margin: 0px 0;
+  margin: 0;
 }
 
 .centerContent {
@@ -34,15 +34,44 @@
   justify-content: center;
   align-items: center;
 }
-
+.text {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: "Calistoga", sans-serif, bold;
+  color: white;
+  margin-top: -100px;
+  text-decoration: none;
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgba(255, 99, 132, 0.5);
+  z-index: 1; /* Ensure links are behind frames */
+  transition: transform 0.8s ease; /* Add transition for transform property */
+  transform-style: preserve-3d;
+}
+.text:hover {
+  visibility: hidden;
+}
 .leftImage {
   position: relative;
   margin-bottom: 40px;
+  transition: transform 3s ease; /* Add transition for transform property */
+  transform-style: preserve-3d;
+}
+
+.leftImage:hover {
+  transition: transform 3 ease;
+  scale: 1.1;
 }
 
 .rightImage {
   position: relative;
   margin-bottom: 40px;
+  transition: transform 3s ease; /* Add transition for transform property */
+  transform-style: preserve-3d;
+}
+.rightImage:hover {
+  transition: transform 3s ease;
+  scale: 1.1;
 }
 
 .frame {
@@ -52,14 +81,10 @@
 }
 
 .menuLink {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: "Calistoga", sans-serif, bold;
-  color: white;
-  margin-bottom: 50px;
-  text-decoration: none;
-  font-size: 30px;
   -webkit-text-stroke: 1px rgba(255, 99, 132, 0.5);
+  z-index: 1; /* Ensure links are behind frames */
+  text-decoration: none;
+}
+.container:hover {
+  backdrop-filter: blur(5px);
 }

@@ -1,5 +1,5 @@
 .background {
-  background-image: url("C:\Users\Lenovo\Desktop\ATC-2024\team-finder-frontend\src\assets\image3.png");
+  background-image: url("../../assets/image3.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -142,24 +142,9 @@
   flex-direction: column;
   font-family: "Calistoga", sans-serif;
   font-size: 18px;
-  line-height: 42.9px;
+  line-height: 25px;
   letter-spacing: -0.05em;
   text-align: left;
-}
-
-.label1 {
-  display: block;
-  margin-bottom: -5px;
-}
-
-.input {
-  margin-bottom: 5px;
-  border-left: 3px solid rgba(255, 99, 132, 0.5);
-  padding: 6px;
-  font-size: 16px;
-  text-align: left;
-  border-radius: 5px;
-  width: 320px;
 }
 
 .signup_btn_signup_employer {
@@ -177,6 +162,7 @@
   line-height: 1.2;
   margin-top: 10px;
   text-decoration: none;
+  height: 30px;
 }
 
 .signup_btn_signup_employer:active {
@@ -209,7 +195,17 @@
   margin-left: 50px;
 }
 
-input::placeholder {
+.input {
+  margin-bottom: 10px;
+  border-left: 3px solid rgba(255, 99, 132, 0.5);
+  font-size: 16px;
+  text-align: left;
+  border-radius: 5px;
+  width: 328px;
+  height: 25px;
+}
+
+.input::placeholder {
   color: rgba(240, 220, 220, 0.5);
   -webkit-text-stroke: 1.1px rgba(235, 216, 216, 0.5);
   border: none;
@@ -262,4 +258,11 @@ input::placeholder {
 }
 .text_welcome_signup_employer.active {
   transform: rotateY(0deg);
+}
+.login_link_emp_1 {
+  color: white;
+  text-decoration: none;
+}
+.sign_up_text_emp {
+  margin-top: -1px;
 }

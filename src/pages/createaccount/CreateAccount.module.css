@@ -1,5 +1,5 @@
-.container {
-  background-image: url("C:\Users\Lenovo\Desktop\ATC-2024\team-finder-frontend\src\assets\image3.png");
+.background_acc {
+  background-image: url("../../assets/image3_1.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -8,10 +8,41 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-.logo_container {
+.container_acc {
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+
+.container_acc.active {
+  transform: rotateY(180deg);
+}
+
+.container_login_acc {
+  overflow: hidden;
+  backface-visibility: visible;
+  overflow: hidden;
+  width: 700px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+}
+
+.container_login_acc.active {
+  transform: rotateY(0deg);
+}
+
+.switchContainer_acc {
+  position: absolute;
+  transform: rotate3d(-50%);
+}
+
+.logo_container_acc {
   background-color: #000d59;
   padding: 10px;
   border-radius: none;
@@ -24,128 +55,230 @@
   width: 380px;
 }
 
-.logo_container img {
+.logo_container_acc img {
   width: 200px;
 }
 
-.title_and_logo {
+.title_and_logo_acc {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.title {
+.switchContainer_acc {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 34px;
+  margin-top: 190px;
+  transition: width 2s;
+}
+
+.container_log_sign {
+  position: absolute;
+  display: flex;
+  width: auto;
+  height: auto;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transition: rotateY(360deg);
+  z-index: 999;
+}
+
+.signup_container_acc {
+  color: #000d59;
+  display: flex;
+  position: absolute;
+  margin-bottom: 300px;
+  margin-right: 220px;
+  top: 110px;
+  right: 300px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  z-index: 999;
+}
+
+.signup_container_acc.active {
+  display: none;
+}
+
+.login_container_acc {
+  color: #000d59;
+  display: flex;
+  position: absolute;
+  margin-bottom: 260px;
+  margin-right: 370px;
+  top: 110px;
+  right: 50px;
+  transform-style: preserve-3d;
+  z-index: 999;
+}
+
+.login_container_acc.active {
+  display: none;
+}
+
+.title_signup_admin {
   font-family: "Calistoga", sans-serif, bold;
   font-size: 24px;
   color: black;
   margin-right: 1px;
-  margin-left: 32px;
+  margin-left: 35px;
   margin-bottom: 20px;
 }
 
-.form_container {
+.signup_acc {
+  color: #f9b8cb;
+  display: flex;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.form_container_acc {
   background-color: #d9f9ff;
   color: rgb(157, 157, 157);
   padding: 20px;
   padding-right: 50px;
   padding-left: 50px;
   width: 300px;
+  height: 539px;
   display: flex;
   align-items: center;
   flex-direction: column;
   font-family: "Calistoga", sans-serif;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 25px;
   letter-spacing: -0.05em;
   text-align: left;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input {
-  margin-bottom: 5px;
-  border-left: 3px solid rgba(255, 99, 132, 0.5);
-  padding: 6px;
-  font-size: 16px;
-  text-align: left;
-  border-radius: 5px;
-  width: 320px;
-}
-.signup_btn1 {
-  width: 300px;
-  height: 20px;
+.signup_btn_acc {
+  width: 335px;
+  font-size: 18px;
   padding: 5px;
   background-color: #f9b8cb;
+  color: white;
   border: 0.5px solid black;
   border-radius: 5px;
   cursor: pointer;
+  position: fixed;
   text-align: center;
   font-family: "Calistoga", sans-serif, bold;
-  font-size: 18px;
-
+  outline: none;
+  line-height: 1.2;
   margin-top: 10px;
+  text-decoration: none;
+  height: 20px;
 }
-.signup_btn1:active {
+
+.signup_btn_acc:active {
   box-shadow: 0 0 10px #0f0f0f;
   outline: none;
 }
-.login_link_emp {
-  color: white; /* Setează culoarea textului la alb */
-  text-decoration: none; /* Elimină sublinierea link-ului */
-}
-.sign_up_text {
-  margin-top: -1px;
-}
-.login_link {
+
+.login_link_acc {
   border: none;
-  margin-top: -10px;
+  margin-top: 2px;
 }
 
-.login_text {
+.login_text_acc {
   color: rgb(157, 157, 157);
   font-size: 14px;
   font-weight: 1;
   border: none;
   margin-right: 5px;
-  margin-top: -10px;
+  margin-top: 1px;
 }
 
-.login_text_container {
-  display: flex-start;
+.login_text_container_acc {
+  display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
-.login_text_cont {
+.login_text_container_acc {
   display: flex;
   margin-left: 50px;
 }
 
-input::placeholder {
+.input {
+  margin-bottom: 10px;
+  margin-top: -100px;
+  border-left: 3px solid rgba(255, 99, 132, 0.5);
+  font-size: 16px;
+  text-align: left;
+  border-radius: 5px;
+  width: 328px;
+  height: 25px;
+}
+
+.input::placeholder {
   color: rgba(240, 220, 220, 0.5);
   -webkit-text-stroke: 1.1px rgba(235, 216, 216, 0.5);
   border: none;
 }
 
-.frame_container {
+.frame_container_acc {
   margin-bottom: 0.48px;
   display: flex;
+  position: absolute;
+  height: 600px;
   justify-content: flex-start;
+  margin-left: 400px;
+  margin-top: -600px;
+  z-index: 998;
 }
 
-.frame_image {
-  width: 345.66px;
+.frame_image_acc {
+  width: 339px;
   height: auto;
   margin-right: 15px;
 }
 
-.text_welcome {
+.text_welcome_login_acc {
   color: rgb(255, 186, 213);
-  font-size: 50px;
+  font-size: 37px;
   font-family: "Calistoga", sans-serif, bold;
-  margin-left: -300px;
+  margin-top: 250px;
+  margin-left: -330px;
+  z-index: 999;
+  text-align: center;
   -webkit-text-stroke: 1.1px rgba(255, 99, 132, 0.5);
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+
+.text_welcome_login_acc.active {
+  transform: rotateY(180deg);
+}
+
+.text_welcome_acc {
+  color: rgb(255, 186, 213);
+  font-size: 37px;
+  font-family: "Calistoga", sans-serif, bold;
+  margin-top: 255px;
+  margin-left: -276px;
+  z-index: 999;
+  text-align: center;
+  -webkit-text-stroke: 1.1px rgba(255, 99, 132, 0.5);
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+}
+
+.text_welcome_acc.active {
+  transform: rotateY(0deg);
+}
+
+.login_link_emp {
+  color: white;
+  text-decoration: none;
+}
+
+.sign_up_text {
+  margin-top: -1px;
 }

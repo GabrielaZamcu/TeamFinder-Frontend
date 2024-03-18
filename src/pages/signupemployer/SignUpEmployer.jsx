@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import logo from "../../assets/teamfinder.png";
 import SignUpEmployerCSS from "./SignUpEmployer.module.css";
 import { Link } from "react-router-dom";
-import loginIcon from "../../assets/Login.png";
 import frame from "../../assets/Frame225.png";
 import { Switch } from "antd";
 
@@ -10,6 +9,7 @@ function SignUpEmployer() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [address, setAddress] = useState("");
+  const [refferal, setRefferal] = useState("");
   const [toggle, setToggle] = useState(false);
 
   const toggler = () => {
@@ -37,7 +37,6 @@ function SignUpEmployer() {
                 </div>
               </div>
 
-            
               <div className={SignUpEmployerCSS.signup_form}>
                 <div className={SignUpEmployerCSS.form_group_signup_employer}>
                   <div className={SignUpEmployerCSS.signup}>
@@ -50,6 +49,7 @@ function SignUpEmployer() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Name"
+                    className={SignUpEmployerCSS.input}
                   />
                 </div>
                 <div className={SignUpEmployerCSS.form_group_signup_employer}>
@@ -60,6 +60,7 @@ function SignUpEmployer() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email"
+                    className={SignUpEmployerCSS.input}
                   />
                 </div>
 
@@ -71,6 +72,29 @@ function SignUpEmployer() {
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     placeholder="Address"
+                    className={SignUpEmployerCSS.input}
+                  />
+                </div>
+                <div className={SignUpEmployerCSS.form_group_signup_employer}>
+                  <label htmlFor="password">Password:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    value={address}
+                    onChange={(e) => setAddress(e.target.value)}
+                    placeholder="Password"
+                    className={SignUpEmployerCSS.input}
+                  />
+                </div>
+                <div className={SignUpEmployerCSS.form_group_signup_employer}>
+                  <label htmlFor="refferal">Refferal:</label>
+                  <input
+                    type="refferal"
+                    id="refferal"
+                    value={address}
+                    onChange={(e) => setRefferal(e.target.value)}
+                    placeholder="Refferal"
+                    className={SignUpEmployerCSS.input}
                   />
                 </div>
 
@@ -116,7 +140,6 @@ function SignUpEmployer() {
                 </div>
               </div>
 
-            
               <div className={SignUpEmployerCSS.login_form}>
                 <div className={SignUpEmployerCSS.form_group_signup_employer}>
                   <div className={SignUpEmployerCSS.signup}>
@@ -129,6 +152,7 @@ function SignUpEmployer() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email"
+                    className={SignUpEmployerCSS.input}
                   />
                 </div>
 
@@ -140,13 +164,19 @@ function SignUpEmployer() {
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     placeholder="Password"
+                    className={SignUpEmployerCSS.input}
                   />
                 </div>
 
                 <button
                   className={SignUpEmployerCSS.signup_btn_signup_employer}
                 >
-                  Log in
+                  <Link
+                    to="/overview"
+                    className={SignUpEmployerCSS.login_link_emp_1}
+                  >
+                    <p className={SignUpEmployerCSS.sign_up_text_emp}>Log in</p>
+                  </Link>
                 </button>
               </div>
             </div>
