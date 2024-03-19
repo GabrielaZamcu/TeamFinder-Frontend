@@ -5,6 +5,7 @@ import image from "../../assets/Frame27.png";
 import image4 from "../../assets/Frame114.png";
 import image5 from "../../assets/Frame105.png";
 import image_empl from "../../assets/Group19.png";
+import { Link } from "react-router-dom";
 
 function Organizations() {
   return (
@@ -22,7 +23,12 @@ function Organizations() {
               className={OrganizationsCSS.buttonImage_emp_org}
             />
             <div className={OrganizationsCSS.name_project_prf1}>
-              <p>X-force</p>
+              <Link
+                to="/OrganizationProfile"
+                className={OrganizationsCSS.login_link_org}
+              >
+                <p>X-force</p>
+              </Link>
             </div>
             <div className={OrganizationsCSS.program_org0}>
               <div className={OrganizationsCSS.row_org0}>

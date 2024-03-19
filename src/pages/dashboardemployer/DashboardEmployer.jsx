@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import DashboardEmployerCSS from "./DashboardEmployer.module.css";
 import image11 from "../../assets/Frame 94.png";
 import image12 from "../../assets/Frame 97.png";
@@ -7,8 +7,18 @@ import image14 from "../../assets/Frame 96.png";
 import image15 from "../../assets/buton.png";
 import progress from "../../assets/Progress.png";
 import { Link } from "react-router-dom";
+import Modal from "../../components/modal/Modal";
 
 function DashboardEmployer() {
+  const [isModalOpen, setIsModalOpen] = useState(false); // Starea pentru controlul afișării modalei
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className={DashboardEmployerCSS.dashboard}>
       <div className={DashboardEmployerCSS.projectImg}>
@@ -207,10 +217,14 @@ function DashboardEmployer() {
           <img src={image14} alt="Frame96" />
         </div>
         <div className={DashboardEmployerCSS.button_1}>
-          <button className={DashboardEmployerCSS.buttonImg_1}>
+          <button
+            className={DashboardEmployerCSS.buttonImg_1}
+            onClick={openModal}
+          >
             <img src={image15} alt="button" />
           </button>
         </div>
+        {isModalOpen && <Modal closeModal={closeModal} />}
       </div>
       <div className={DashboardEmployerCSS.project1_1}>
         <p>Meeting </p>

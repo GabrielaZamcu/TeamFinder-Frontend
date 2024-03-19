@@ -101,7 +101,14 @@ function SignUpEmployer() {
                 <button
                   className={SignUpEmployerCSS.signup_btn_signup_employer}
                 >
-                  Sign Up
+                  <Link
+                    to="/overview"
+                    className={SignUpEmployerCSS.login_link_emp_1}
+                  >
+                    <p className={SignUpEmployerCSS.sign_up_text_emp}>
+                      Sign up
+                    </p>
+                  </Link>
                 </button>
               </div>
             </div>

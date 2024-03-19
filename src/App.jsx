@@ -16,6 +16,7 @@ import Profile from "./pages/profile/Profile";
 import SidebarEmployer from "./components/sidebaremployer/SideBarEmployer";
 import DashboardEmployer from "./pages/dashboardemployer/DashboardEmployer";
 import Organizations from "./pages/organizations/Organizations";
+import OrganizationProfile from "./pages/organizationprofile/OrganizationProfile";
 
 function App() {
   const { pathname } = useLocation();
@@ -35,7 +36,8 @@ function App() {
         pathname === "/organizations" ||
         pathname === "/employees_e" ||
         pathname === "/departaments" ||
-        pathname === "/Project_emp"
+        pathname === "/Project_emp" ||
+        pathname === "/OrganizationProfile"
       ) && <SidebarEmployee />}
       {!(
         pathname === "/home" ||
@@ -84,6 +86,10 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/dashboardemployer" element={<DashboardEmployer />} />
           <Route path="/organizations" element={<Organizations />} />
+          <Route
+            path="/OrganizationProfile"
+            element={<OrganizationProfile />}
+          />
         </Routes>
       </div>
     </div>

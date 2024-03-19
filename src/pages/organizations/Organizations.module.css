@@ -550,3 +550,7 @@
   font-family: "Calistoga", sans-serif;
   margin-left: 73px;
 }
+.login_link_org {
+  color: white;
+  text-decoration: none;
+}

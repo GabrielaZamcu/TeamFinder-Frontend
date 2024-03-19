@@ -18,6 +18,47 @@ function CreateAccount() {
   const toggler = () => {
     setToggle(!toggle);
   };
+  const validateForm = () => {
+    if (!name || !email || !password || orgName || !address) {
+      ConnectionIsNotSetError("Please fill in all fields!");
+      return false;
+    }
+    setError("");
+    return true;
+  };
+
+  const handleSignUp = async (event) => {
+    event.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
+
+    const url =
+      '${"http://atc-2024-x-force-be-linux-web-app.azurewebsites.net"}/users/admin';
+    try {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          Name,
+          email,
+          address,
+          password,
+          orgAdmin,
+          orgAddress,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to sign up");
+      }
+    } catch (error) {
+      console.error("Error signing up:", error.message);
+    }
+  };
   return (
     <div>
       <div className={CreateAccountCSS.background_acc}>
@@ -71,7 +112,7 @@ function CreateAccount() {
                   <label htmlFor="password">Password:</label>
                   <div className={CreateAccountCSS.input_acc}>
                     <input
-                      type="text"
+                      type="password"
                       id="password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
@@ -119,9 +160,14 @@ function CreateAccount() {
                     className={CreateAccountCSS.input}
                   />
                 </div>
-                <button91 className={CreateAccountCSS.signup_btn_acc}>
-                  Sign Up
-                </button91>
+                <button90 className={CreateAccountCSS.signup_btn_acc}>
+                  <Link
+                    to="/dashboardemployer"
+                    className={CreateAccountCSS.login_link_emp}
+                  >
+                    <p className={CreateAccountCSS.sign_up_text}>Sign Up</p>
+                  </Link>
+                </button90>
               </div>
             </div>
             <div className={CreateAccountCSS.frame_container_acc}>
