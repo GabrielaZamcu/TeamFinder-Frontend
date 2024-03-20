@@ -119,14 +119,14 @@ function SignUpEmployer() {
                 className={SignUpEmployerCSS.frame_image_signup_employer}
               />
               <div className={SignUpEmployerCSS.text_welcome_signup_employer}>
-                <p40>Welcome!</p40>
+                <p>Welcome!</p>
               </div>
             </div>
             <div className={SignUpEmployerCSS.login_container}>
-              <span0>Sign Up</span0>
+              <span>Sign Up</span>
             </div>
             <div className={SignUpEmployerCSS.signup_container}>
-              <span1>Log In</span1>
+              <span>Log In</span>
             </div>
           </div>
         ) : (
@@ -174,17 +174,20 @@ function SignUpEmployer() {
                     className={SignUpEmployerCSS.input}
                   />
                 </div>
-
-                <button
-                  className={SignUpEmployerCSS.signup_btn_signup_employer}
-                >
-                  <Link
-                    to="/overview"
-                    className={SignUpEmployerCSS.login_link_emp_1}
+                <div className={SignUpEmployerCSS.button_sgn}>
+                  <button
+                    className={SignUpEmployerCSS.signup_btn_signup_employer}
                   >
-                    <p className={SignUpEmployerCSS.sign_up_text_emp}>Log in</p>
-                  </Link>
-                </button>
+                    <Link
+                      to="/overview"
+                      className={SignUpEmployerCSS.login_link_emp_1}
+                    >
+                      <p className={SignUpEmployerCSS.sign_up_text_emp}>
+                        Log in
+                      </p>
+                    </Link>
+                  </button>
+                </div>
               </div>
             </div>
             <div className={SignUpEmployerCSS.frame_container_signup_employer}>
@@ -194,14 +197,14 @@ function SignUpEmployer() {
                 className={SignUpEmployerCSS.frame_image_signup_employer}
               />
               <div className={SignUpEmployerCSS.text_welcome_login_employer}>
-                <p39>Welcome back!</p39>
+                <p>Welcome back!</p>
               </div>
             </div>
             <div className={SignUpEmployerCSS.login_container}>
-              <span3>Sign Up</span3>
+              <span>Sign Up</span>
             </div>
             <div className={SignUpEmployerCSS.signup_container}>
-              <span2>Log In</span2>
+              <span>Log In</span>
             </div>
           </div>
         )}

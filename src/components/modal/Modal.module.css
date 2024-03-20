@@ -1,34 +1,30 @@
-/* Stilizare pentru fundalul întregii pagini */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Stilizare pentru modal */
 .modal {
-  display: none; /* Modalul este ascuns inițial */
-  position: fixed; /* Poziționare fixă pentru a fi centrat pe ecran */
+  display: none;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent */
-  z-index: 1; /* Asigură că modalul este afișat deasupra conținutului */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
-/* Stilizare pentru conținutul modalului */
 .modalContent {
   background-color: white;
-  margin: 20% auto; /* Centrare verticală și orizontală */
+  margin: 20% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 400px; /* Lățimea maximă a conținutului */
+  max-width: 400px;
   position: relative;
 }
 
-/* Stilizare pentru butonul de închidere */
 .close {
   color: #aaa;
   float: right;
@@ -43,7 +39,6 @@ body {
   cursor: pointer;
 }
 
-/* Stilizare pentru butoanele din interiorul modalului */
 .modalContent button {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -52,7 +47,6 @@ body {
   cursor: pointer;
 }
 
-/* Stilizare pentru conținutul afișat atunci când o opțiune este selectată */
 .selectedOption {
   margin-top: 10px;
 }

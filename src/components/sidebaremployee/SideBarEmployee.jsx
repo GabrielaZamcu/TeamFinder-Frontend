@@ -6,9 +6,8 @@ import image from "../../assets/Group2.png";
 
 function SidebarEmployee() {
   const location = useLocation();
-  const [activeButton, setActiveButton] = useState(""); // Starea pentru a ține evidența butonului activ
+  const [activeButton, setActiveButton] = useState("");
 
-  // Funcție pentru a marca butonul ca activ
   const handleSetActive = (buttonName) => {
     setActiveButton(buttonName);
   };
@@ -36,7 +35,7 @@ function SidebarEmployee() {
           <Link
             to="/overview"
             className={SidebarEmployeeCSS.link_page}
-            onClick={() => handleSetActive("overview")} // Transmite numele butonului către funcția handleSetActive
+            onClick={() => handleSetActive("overview")}
           >
             <button
               className={
@@ -51,7 +50,7 @@ function SidebarEmployee() {
           <Link
             to="/projects"
             className={SidebarEmployeeCSS.link_page}
-            onClick={() => handleSetActive("projects")} // Transmite numele butonului către funcția handleSetActive
+            onClick={() => handleSetActive("projects")}
           >
             <button
               className={
@@ -66,7 +65,7 @@ function SidebarEmployee() {
           <Link
             to="/profile"
             className={SidebarEmployeeCSS.link_page}
-            onClick={() => handleSetActive("profile")} // Transmite numele butonului către funcția handleSetActive
+            onClick={() => handleSetActive("profile")}
           >
             <button
               className={

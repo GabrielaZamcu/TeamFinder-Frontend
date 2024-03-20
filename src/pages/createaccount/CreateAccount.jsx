@@ -19,7 +19,7 @@ function CreateAccount() {
     setToggle(!toggle);
   };
   const validateForm = () => {
-    if (!name || !email || !password || orgName || !address) {
+    if (!Name || !email || !password || orgName || !address) {
       ConnectionIsNotSetError("Please fill in all fields!");
       return false;
     }
@@ -160,14 +160,14 @@ function CreateAccount() {
                     className={CreateAccountCSS.input}
                   />
                 </div>
-                <button90 className={CreateAccountCSS.signup_btn_acc}>
+                <button className={CreateAccountCSS.signup_btn_acc}>
                   <Link
                     to="/dashboardemployer"
                     className={CreateAccountCSS.login_link_emp}
                   >
                     <p className={CreateAccountCSS.sign_up_text}>Sign Up</p>
                   </Link>
-                </button90>
+                </button>
               </div>
             </div>
             <div className={CreateAccountCSS.frame_container_acc}>
@@ -177,14 +177,14 @@ function CreateAccount() {
                 className={CreateAccountCSS.frame_image_acc}
               />
               <div className={CreateAccountCSS.text_welcome_acc}>
-                <p40>Welcome!</p40>
+                <p>Welcome!</p>
               </div>
             </div>
             <div className={CreateAccountCSS.login_container_acc}>
-              <span0>Sign Up</span0>
+              <span>Sign Up</span>
             </div>
             <div className={CreateAccountCSS.signup_container_acc}>
-              <span1>Log In</span1>
+              <span>Log In</span>
             </div>
           </div>
         ) : (
@@ -231,14 +231,14 @@ function CreateAccount() {
                   />
                 </div>
 
-                <button90 className={CreateAccountCSS.signup_btn_acc}>
+                <button className={CreateAccountCSS.signup_btn_acc}>
                   <Link
                     to="/dashboardemployer"
                     className={CreateAccountCSS.login_link_emp}
                   >
                     <p className={CreateAccountCSS.sign_up_text}>Log in</p>
                   </Link>
-                </button90>
+                </button>
               </div>
             </div>
             <div className={CreateAccountCSS.frame_container_acc}>
@@ -248,14 +248,14 @@ function CreateAccount() {
                 className={CreateAccountCSS.frame_image_acc}
               />
               <div className={CreateAccountCSS.text_welcome_login_acc}>
-                <p39>Welcome back!</p39>
+                <p>Welcome back!</p>
               </div>
             </div>
             <div className={CreateAccountCSS.login_container_acc}>
-              <span3>Sign Up</span3>
+              <span>Sign Up</span>
             </div>
             <div className={CreateAccountCSS.signup_container_acc}>
-              <span2>Log In</span2>
+              <span>Log In</span>
             </div>
           </div>
         )}

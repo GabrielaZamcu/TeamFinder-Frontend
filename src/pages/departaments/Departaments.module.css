@@ -1,0 +1,340 @@
+.container {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+.project_img {
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  width: 200px;
+  height: 300px;
+  flex-shrink: none;
+  z-index: -1;
+}
+
+.login_link {
+  color: white;
+  text-decoration: none;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 600px;
+  margin-top: 300px;
+  z-index: -1;
+}
+.program_empl {
+  width: 902px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: -220px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.program_emp2 {
+  width: 902px;
+  margin-left: 100px;
+  margin-top: -152px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+  height: 40px;
+}
+
+.row {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.objective {
+  font-size: 20px;
+}
+
+.members {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+.date_start {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+.members_on {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -45px;
+  margin-left: 355px;
+}
+.date_on {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 500px;
+  margin-top: -45px;
+}
+.imag_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -3px;
+  z-index: -1;
+}
+.program_empl_1 {
+  width: 902px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: -60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.program_emp2_1 {
+  width: 902px;
+  margin-left: 100px;
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+  height: 40px;
+}
+
+.row_1 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.objective_1 {
+  font-size: 20px;
+}
+
+.members_1 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+.date_start_1 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+.members_on_1 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -45px;
+  margin-left: 355px;
+}
+.date_on_1 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 500px;
+  margin-top: -45px;
+}
+.imag_back_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -3px;
+  z-index: -1;
+}
+.program_empl_2 {
+  width: 902px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 105px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.program_emp2_2 {
+  width: 902px;
+  margin-left: 100px;
+  margin-top: 172px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+  height: 40px;
+}
+
+.row_2 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.objective_2 {
+  font-size: 20px;
+}
+
+.members_2 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+.date_start_2 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 120px;
+  margin-top: -45px;
+}
+.members_on_2 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -45px;
+  margin-left: 255px;
+}
+.date_on_2 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 500px;
+  margin-top: -45px;
+}
+.imag_back_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -3px;
+  z-index: -1;
+}
+.program_empl_3 {
+  width: 902px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.program_emp2_3 {
+  width: 902px;
+  margin-left: 100px;
+  margin-top: 342px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -3px;
+  height: 40px;
+}
+
+.row_3 {
+  flex-direction: center;
+  justify-content: center;
+}
+
+.objective_3 {
+  font-size: 20px;
+}
+
+.members_3 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -50px;
+}
+.date_start_3 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 130px;
+  margin-top: -45px;
+}
+.members_on_3 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -45px;
+  margin-left: 355px;
+}
+.date_on_3 {
+  font-size: 20px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 500px;
+  margin-top: -45px;
+}
+.imag_back_3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -3px;
+  z-index: -1;
+}

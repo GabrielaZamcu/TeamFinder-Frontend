@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import DashboardEmployerCSS from "./DashboardEmployer.module.css";
 import image11 from "../../assets/Frame 94.png";
 import image12 from "../../assets/Frame 97.png";
@@ -7,18 +7,8 @@ import image14 from "../../assets/Frame 96.png";
 import image15 from "../../assets/buton.png";
 import progress from "../../assets/Progress.png";
 import { Link } from "react-router-dom";
-import Modal from "../../components/modal/Modal";
 
 function DashboardEmployer() {
-  const [isModalOpen, setIsModalOpen] = useState(false); // Starea pentru controlul afișării modalei
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
   return (
     <div className={DashboardEmployerCSS.dashboard}>
       <div className={DashboardEmployerCSS.projectImg}>
@@ -42,189 +32,264 @@ function DashboardEmployer() {
           </div>
         </div>
         <div className={DashboardEmployerCSS.program_empl}>
-          <p1>Main Objective</p1>
-          <p2>Mobile APP for cafe</p2>
+          <div className={DashboardEmployerCSS.objective}>
+            <p>Main Objective</p>
+          </div>
+          <div className={DashboardEmployerCSS.app_1}>
+            <p>Mobile APP for cafe</p>
+          </div>
         </div>
         <div className={DashboardEmployerCSS.program_emp2}>
           <div className={DashboardEmployerCSS.row}>
-            <p3>Start</p3>
-            <p4>28 Feb 2024</p4>
+            <div className={DashboardEmployerCSS.start}>
+              <p>Start</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start}>
+              <p>28 Feb 2024</p>
+            </div>
           </div>
           <div className={DashboardEmployerCSS.row}>
-            <p5>End</p5>
-            <p6>30 Mar 2024</p6>
+            <div className={DashboardEmployerCSS.start_1}>
+              <p>End</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start_1}>
+              <p>30 Mar 2024</p>
+            </div>
           </div>
         </div>
         <div className={DashboardEmployerCSS.program_emp3}>
           <div className={DashboardEmployerCSS.title_emp3}>
-            <p7>Tasks</p7>
+            <p>Tasks</p>
           </div>
           <div className={DashboardEmployerCSS.row2}>
-            <p8>UI / UX Design</p8>
-            <p9>5/10</p9>
+            <div className={DashboardEmployerCSS.role_1}>
+              <p>UI / UX Design</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_1}>
+              <p>5/10</p>
+            </div>
           </div>
           <div className={DashboardEmployerCSS.row2}>
-            <p10>Front-End</p10>
-            <p11>7/10</p11>
+            <div className={DashboardEmployerCSS.role_1}>
+              <p>Front-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_1}>
+              <p>7/10</p>
+            </div>
           </div>
           <div className={DashboardEmployerCSS.row2}>
-            <p12>Back-End</p12>
-            <p13>7/10</p13>
+            <div className={DashboardEmployerCSS.role_1}>
+              <p>Back-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_1}>
+              <p>7/10</p>
+            </div>
           </div>
           <div className={DashboardEmployerCSS.row2}>
-            <p14>Testing</p14>
-            <p15>3/10</p15>
+            <div className={DashboardEmployerCSS.role_1}>
+              <p>Testing</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_1}>
+              <p>3/10</p>
+            </div>
           </div>
         </div>
         <div className={DashboardEmployerCSS.program_emp4}>
           <div className={DashboardEmployerCSS.row3}>
-            <p16>Progress</p16>
-            <div />
-          </div>
-          <div className={DashboardEmployer.image_row3}>
-            <img src={progress} alt="Progress" />
-          </div>
-        </div>
-      </div>
-      <div className={DashboardEmployerCSS.project2_empl}>
-        <div className={DashboardEmployerCSS.name1_empl}>
-          <div className={DashboardEmployerCSS.text1_emp1}>
-            <p17>Project 2</p17>
-          </div>
-        </div>
-        <div className={DashboardEmployerCSS.program1_empl}>
-          <p18>Main Objective</p18>
-          <p19>Mobile APP for cafe</p19>
-        </div>
-        <div className={DashboardEmployerCSS.program1_emp2}>
-          <div className={DashboardEmployerCSS.row}>
-            <p20>Start</p20>
-            <p21>20 Feb 2024</p21>
-          </div>
-          <div className={DashboardEmployerCSS.row_1}>
-            <p22>End</p22>
-            <p23>20 Mar 2024</p23>
-          </div>
-        </div>
-        <div className={DashboardEmployerCSS.program1_emp3}>
-          <div className={DashboardEmployerCSS.title1_emp3}>
-            <p24>Tasks</p24>
-          </div>
-          <div className={DashboardEmployerCSS.row2_1}>
-            <p25>UI / UX Design</p25>
-            <p26>8/10</p26>
-          </div>
-          <div className={DashboardEmployerCSS.row2_1}>
-            <p27>Front-End</p27>
-            <p28>8/10</p28>
-          </div>
-          <div className={DashboardEmployerCSS.row2_1}>
-            <p29>Back-End</p29>
-            <p30>9/10</p30>
-          </div>
-          <div className={DashboardEmployerCSS.row2_1}>
-            <p31>Testing</p31>
-            <p32>5/10</p32>
-          </div>
-        </div>
-        <div className={DashboardEmployerCSS.program1_emp4}>
-          <div className={DashboardEmployerCSS.row3}>
-            <p33>Progress</p33>
-            <div />
-          </div>
-          <div className={DashboardEmployer.image1_row3}>
-            <img src={progress} alt="Progress" />
+            <div className={DashboardEmployerCSS.progress_1}>
+              <p>Progress</p>
+            </div>
+            <div className={DashboardEmployerCSS.image_row3}>
+              <img src={progress} alt="Progress" />
+            </div>
           </div>
         </div>
       </div>
-      <div className={DashboardEmployerCSS.project3_empl}>
-        <div className={DashboardEmployerCSS.name2_empl}>
-          <div className={DashboardEmployerCSS.text2_emp1}>
-            <p34>Project 3</p34>
+      <div className={DashboardEmployerCSS.project1_empl2}>
+        <div className={DashboardEmployerCSS.name_empl2}>
+          <div className={DashboardEmployerCSS.text_emp12}>
+            <Link
+              to="/Project_emp"
+              className={DashboardEmployerCSS.login_link_emp12}
+            >
+              <p>Project 1</p>
+            </Link>
           </div>
         </div>
-        <div className={DashboardEmployerCSS.program3_empl}>
-          <p35>Main Objective</p35>
-          <p36>Mobile APP for cafe</p36>
-        </div>
-        <div className={DashboardEmployerCSS.program3_emp2}>
-          <div className={DashboardEmployerCSS.row_3}>
-            <p37>Start</p37>
-            <p38>20 Feb 2024</p38>
+        <div className={DashboardEmployerCSS.program_empl2}>
+          <div className={DashboardEmployerCSS.objective2}>
+            <p>Main Objective</p>
           </div>
-          <div className={DashboardEmployerCSS.row_3}>
-            <p39>End</p39>
-            <p40>20 Mar 2024</p40>
+          <div className={DashboardEmployerCSS.app_12}>
+            <p>Mobile APP for cafe</p>
           </div>
         </div>
-        <div className={DashboardEmployerCSS.program3_emp3}>
-          <div className={DashboardEmployerCSS.title3_emp3}>
-            <p41>Tasks</p41>
-          </div>
-          <div className={DashboardEmployerCSS.row2_3}>
-            <p42>UI / UX Design</p42>
-            <p43>6/10</p43>
-          </div>
-          <div className={DashboardEmployerCSS.row2_3}>
-            <p44>Front-End</p44>
-            <p45>5/10</p45>
-          </div>
-          <div className={DashboardEmployerCSS.row2_3}>
-            <p46>Back-End</p46>
-            <p47>7/10</p47>
+        <div className={DashboardEmployerCSS.program_emp22}>
+          <div className={DashboardEmployerCSS.row2}>
+            <div className={DashboardEmployerCSS.start2}>
+              <p>Start</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start2}>
+              <p>28 Feb 2024</p>
+            </div>
           </div>
           <div className={DashboardEmployerCSS.row2}>
-            <p48>Testing</p48>
-            <p49>7/10</p49>
+            <div className={DashboardEmployerCSS.start_12}>
+              <p>End</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start_12}>
+              <p>30 Mar 2024</p>
+            </div>
           </div>
         </div>
-        <div className={DashboardEmployerCSS.program3_emp4}>
-          <div className={DashboardEmployerCSS.row3}>
-            <p50>Progress</p50>
-            <div />
+        <div className={DashboardEmployerCSS.program_emp32}>
+          <div className={DashboardEmployerCSS.title_emp32}>
+            <p>Tasks</p>
           </div>
-          <div className={DashboardEmployer.image_row3}>
-            <img src={progress} alt="Progress" />
+          <div className={DashboardEmployerCSS.row22}>
+            <div className={DashboardEmployerCSS.role_12}>
+              <p>UI / UX Design</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_12}>
+              <p>5/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row22}>
+            <div className={DashboardEmployerCSS.role_12}>
+              <p>Front-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_12}>
+              <p>7/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row22}>
+            <div className={DashboardEmployerCSS.role_12}>
+              <p>Back-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_12}>
+              <p>7/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row22}>
+            <div className={DashboardEmployerCSS.role_12}>
+              <p>Testing</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_12}>
+              <p>3/10</p>
+            </div>
+          </div>
+        </div>
+        <div className={DashboardEmployerCSS.program_emp42}>
+          <div className={DashboardEmployerCSS.row3}>
+            <div className={DashboardEmployerCSS.progress_12}>
+              <p>Progress</p>
+            </div>
+            <div className={DashboardEmployerCSS.image_row32}>
+              <img src={progress} alt="Progress" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={DashboardEmployerCSS.project1_empl3}>
+        <div className={DashboardEmployerCSS.name_empl3}>
+          <div className={DashboardEmployerCSS.text_emp13}>
+            <Link
+              to="/Project_emp"
+              className={DashboardEmployerCSS.login_link_emp13}
+            >
+              <p>Project 1</p>
+            </Link>
+          </div>
+        </div>
+        <div className={DashboardEmployerCSS.program_empl3}>
+          <div className={DashboardEmployerCSS.objective3}>
+            <p>Main Objective</p>
+          </div>
+          <div className={DashboardEmployerCSS.app_13}>
+            <p>Mobile APP for cafe</p>
+          </div>
+        </div>
+        <div className={DashboardEmployerCSS.program_emp23}>
+          <div className={DashboardEmployerCSS.row3}>
+            <div className={DashboardEmployerCSS.start3}>
+              <p>Start</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start3}>
+              <p>28 Feb 2024</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row3}>
+            <div className={DashboardEmployerCSS.start_13}>
+              <p>End</p>
+            </div>
+            <div className={DashboardEmployerCSS.date_start_13}>
+              <p>30 Mar 2024</p>
+            </div>
+          </div>
+        </div>
+        <div className={DashboardEmployerCSS.program_emp33}>
+          <div className={DashboardEmployerCSS.title_emp33}>
+            <p>Tasks</p>
+          </div>
+          <div className={DashboardEmployerCSS.row23}>
+            <div className={DashboardEmployerCSS.role_13}>
+              <p>UI / UX Design</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_13}>
+              <p>5/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row23}>
+            <div className={DashboardEmployerCSS.role_13}>
+              <p>Front-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_13}>
+              <p>7/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row23}>
+            <div className={DashboardEmployerCSS.role_13}>
+              <p>Back-End</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_13}>
+              <p>7/10</p>
+            </div>
+          </div>
+          <div className={DashboardEmployerCSS.row23}>
+            <div className={DashboardEmployerCSS.role_13}>
+              <p>Testing</p>
+            </div>
+            <div className={DashboardEmployerCSS.task_13}>
+              <p>3/10</p>
+            </div>
+          </div>
+        </div>
+        <div className={DashboardEmployerCSS.program_emp43}>
+          <div className={DashboardEmployerCSS.row3}>
+            <div className={DashboardEmployerCSS.progress_13}>
+              <p>Progress</p>
+            </div>
+            <div className={DashboardEmployerCSS.image_row33}>
+              <img src={progress} alt="Progress" />
+            </div>
           </div>
         </div>
       </div>
       <div className={DashboardEmployerCSS.title2}>
         <p>Today’s Agenda </p>
       </div>
-      <div className={DashboardEmployerCSS.program1}>
-        <img src={image13} alt="Frame95" />
-        <div className={DashboardEmployerCSS.date}>
-          <img src={image14} alt="Frame96" />
-        </div>
-        <div className={DashboardEmployerCSS.button}>
-          <button className={DashboardEmployerCSS.buttonImg}>
-            <img src={image15} alt="button" />
-          </button>
-        </div>
-      </div>{" "}
-      <div className={DashboardEmployerCSS.project1}>
-        <p>Meeting </p>
-      </div>
-      <div className={DashboardEmployerCSS.project2}>
-        <p>Project 1 </p>
-      </div>
-      <div className={DashboardEmployerCSS.project3}>
-        <p>9:00 - 12:00 </p>
-      </div>
+
       <div className={DashboardEmployerCSS.program1_1}>
         <img src={image13} alt="Frame95" />
         <div className={DashboardEmployerCSS.date_1}>
           <img src={image14} alt="Frame96" />
         </div>
         <div className={DashboardEmployerCSS.button_1}>
-          <button
-            className={DashboardEmployerCSS.buttonImg_1}
-            onClick={openModal}
-          >
+          <button className={DashboardEmployerCSS.buttonImg_1}>
             <img src={image15} alt="button" />
           </button>
         </div>
-        {isModalOpen && <Modal closeModal={closeModal} />}
       </div>
       <div className={DashboardEmployerCSS.project1_1}>
         <p>Meeting </p>

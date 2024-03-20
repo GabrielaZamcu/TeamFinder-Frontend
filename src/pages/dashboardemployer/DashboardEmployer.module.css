@@ -35,20 +35,12 @@
   color: #000000;
   border-radius: 5px;
   margin-left: -480px;
-  margin-top: 280px;
+  margin-top: 350px;
   font-family: "Calistoga", sans-serif, bold;
   font-size: 35px;
   text-align: center;
 }
-.program1 {
-  position: absolute;
-  top: 545px;
-  left: 390px;
-  width: 100px;
-  height: 10px;
-  flex-shrink: none;
-  z-index: -1;
-}
+
 .date {
   position: absolute;
   top: 10px;
@@ -56,33 +48,6 @@
   width: 10px;
   height: 5px;
   flex-shrink: none;
-}
-.project1 {
-  padding: 6px;
-  color: #000000;
-  margin-left: -350px;
-  margin-top: -40px;
-  font-family: "Calistoga", sans-serif bold;
-  font-size: 17px;
-  text-align: center;
-}
-.project2 {
-  padding: 6px;
-  color: #696464;
-  margin-left: -350px;
-  margin-top: -45px;
-  font-family: "Calistoga", sans-serif bold;
-  font-size: 17px;
-  text-align: center;
-}
-.project3 {
-  padding: 6px;
-  color: #696464;
-  margin-left: -120px;
-  margin-top: -65px;
-  font-family: "Calistoga", sans-serif bold;
-  font-size: 16px;
-  text-align: center;
 }
 
 .button {
@@ -134,19 +99,10 @@
   border: 1px solid #ccc;
 }
 
-.program_empl p1 {
-  font-size: 20px;
-}
-.program_empl p2 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-}
-
 .program_emp2 {
   width: 198px;
   margin-left: -250px;
-  margin-top: -78px;
+  margin-top: -74px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,6 +113,7 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 50px;
 }
 
 .row {
@@ -164,23 +121,10 @@
   justify-content: center;
 }
 
-.program_emp2 p4 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 20px;
-}
-.program_emp2 p6 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-
 .program_emp3 {
   width: 198px;
   margin-left: -250px;
-  margin-top: -3.5px;
+  margin-top: 33.5px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,34 +141,11 @@
   flex-direction: center;
   justify-content: center;
 }
-.program_emp3 p9 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-.program_emp3 p11 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 56px;
-}
-.program_emp3 p13 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 61px;
-}
-.program_emp3 p15 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 76px;
-}
+
 .program_emp4 {
   width: 198px;
   margin-left: -250px;
-  margin-top: 73.5px;
+  margin-top: 150.8px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -235,17 +156,75 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 70px;
 }
 .row3 {
   margin-left: 8px;
   font-size: 20px;
 }
+.objective {
+  font-size: 20px;
+}
+.app_1 {
+  margin-top: -40px;
+  font-size: 15px;
+  color: #696464;
+}
+.start {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.date_start {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.start_1 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+.date_start_1 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.role_1 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+.task_1 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 115px;
+  margin-top: -35px;
+}
+.progress_1 {
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.image_row3 {
+  margin-top: -25px;
+}
 
-.name1_empl {
+.name_empl2 {
   background-color: #000d59;
   width: 200px;
   height: 60px;
-  margin-left: 90px;
+  margin-left: 70px;
   margin-top: -190px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -258,19 +237,19 @@
   align-items: center;
 }
 
-.text1_emp1 {
+.text_emp12 {
   color: aliceblue;
-  font-size: 24.5px;
+  font-size: 25.5px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.program1_empl {
+.program_empl2 {
   width: 198px;
   height: 60px;
-  margin-left: 90px;
+  margin-left: 70px;
   margin-top: -130px;
   position: absolute;
   top: 50%;
@@ -283,19 +262,10 @@
   border: 1px solid #ccc;
 }
 
-.program1_empl p18 {
-  font-size: 20px;
-}
-.program1_empl p19 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-}
-
-.program1_emp2 {
+.program_emp22 {
   width: 198px;
-  margin-left: 90px;
-  margin-top: -78px;
+  margin-left: 70px;
+  margin-top: -74px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -306,30 +276,18 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 50px;
 }
 
-.row_1 {
+.row2 {
   flex-direction: center;
   justify-content: center;
 }
 
-.program1_emp2 p21 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 20px;
-}
-.program1_emp2 p23 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-
-.program1_emp3 {
+.program_emp32 {
   width: 198px;
-  margin-left: 90px;
-  margin-top: -3.5px;
+  margin-left: 70px;
+  margin-top: 33.5px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -342,38 +300,15 @@
   padding: -3px;
 }
 
-.row2_1 {
+.row22 {
   flex-direction: center;
   justify-content: center;
 }
-.program1_emp3 p26 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-.program1_emp3 p28 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 56px;
-}
-.program1_emp3 p30 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 61px;
-}
-.program1_emp3 p32 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 76px;
-}
-.program1_emp4 {
+
+.program_emp42 {
   width: 198px;
-  margin-left: 90px;
-  margin-top: 73.5px;
+  margin-left: 70px;
+  margin-top: 150.8px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -384,17 +319,75 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 70px;
 }
-.row3_1 {
+.row32 {
   margin-left: 8px;
   font-size: 20px;
 }
+.objective2 {
+  font-size: 20px;
+}
+.app_12 {
+  margin-top: -40px;
+  font-size: 15px;
+  color: #696464;
+}
+.start2 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.date_start2 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.start_12 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+.date_start_12 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.role_12 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+.task_12 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 115px;
+  margin-top: -35px;
+}
+.progress_12 {
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.image_row32 {
+  margin-top: -25px;
+}
 
-.name2_empl {
+.name_empl3 {
   background-color: #000d59;
   width: 200px;
   height: 60px;
-  margin-left: 430px;
+  margin-left: 410px;
   margin-top: -190px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -407,19 +400,22 @@
   align-items: center;
 }
 
-.text2_emp1 {
+.text_emp13 {
   color: aliceblue;
-  font-size: 24.5px;
+  font-size: 25.5px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.program3_empl {
+.login_link_emp13 {
+  color: white;
+  text-decoration: none;
+}
+.program_empl3 {
   width: 198px;
   height: 60px;
-  margin-left: 430px;
+  margin-left: 410px;
   margin-top: -130px;
   position: absolute;
   top: 50%;
@@ -432,19 +428,10 @@
   border: 1px solid #ccc;
 }
 
-.program3_empl p35 {
-  font-size: 20px;
-}
-.program3_empl p36 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-}
-
-.program3_emp2 {
+.program_emp23 {
   width: 198px;
-  margin-left: 430px;
-  margin-top: -78px;
+  margin-left: 410px;
+  margin-top: -74px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -455,30 +442,18 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 50px;
 }
 
-.row_1_3 {
+.row3 {
   flex-direction: center;
   justify-content: center;
 }
 
-.program3_emp2 p38 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 20px;
-}
-.program3_emp2 p40 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-
-.program3_emp3 {
+.program_emp33 {
   width: 198px;
-  margin-left: 430px;
-  margin-top: -3.5px;
+  margin-left: 410px;
+  margin-top: 33.5px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -491,38 +466,15 @@
   padding: -3px;
 }
 
-.row2_3 {
+.row23 {
   flex-direction: center;
   justify-content: center;
 }
-.program3_emp3 p43 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 25px;
-}
-.program3_emp3 p45 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 56px;
-}
-.program3_emp3 p47 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 61px;
-}
-.program3_emp3 p49 {
-  font-size: 15px;
-  color: #696464;
-  font-family: "Calistoga", sans-serif;
-  margin-left: 76px;
-}
-.program3_emp4 {
+
+.program_emp43 {
   width: 198px;
-  margin-left: 430px;
-  margin-top: 73.5px;
+  margin-left: 410px;
+  margin-top: 150.8px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -533,10 +485,68 @@
   justify-content: center;
   align-items: center;
   padding: -3px;
+  height: 70px;
 }
-.row3_3 {
+.row33 {
   margin-left: 8px;
   font-size: 20px;
+}
+.objective3 {
+  font-size: 20px;
+}
+.app_13 {
+  margin-top: -40px;
+  font-size: 15px;
+  color: #696464;
+}
+.start3 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.date_start3 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.start_13 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -30px;
+  margin-left: -15px;
+}
+.date_start_13 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.role_13 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Calistoga", sans-serif;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+.task_13 {
+  font-size: 15px;
+  color: #696464;
+  font-family: "Calistoga", sans-serif;
+  margin-left: 115px;
+  margin-top: -35px;
+}
+.progress_13 {
+  margin-top: -20px;
+  margin-left: 40px;
+}
+.image_row33 {
+  margin-top: -25px;
 }
 
 .program1_1 {
@@ -560,7 +570,7 @@
   padding: 6px;
   color: #000000;
   margin-left: -350px;
-  margin-top: 5px;
+  margin-top: -10px;
   font-family: "Calistoga", sans-serif bold;
   font-size: 17px;
   text-align: center;
@@ -591,6 +601,10 @@
   margin-top: 3px;
 }
 .login_link_emp1 {
+  color: white;
+  text-decoration: none;
+}
+.login_link_emp12 {
   color: white;
   text-decoration: none;
 }

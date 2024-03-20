@@ -11,7 +11,7 @@ function Modal() {
 
   const closeModal = () => {
     setIsOpen(false);
-    setSelectedOption(null); // resetează opțiunea selectată la închiderea modalului
+    setSelectedOption(null);
   };
 
   const handleOptionClick = (option) => {
